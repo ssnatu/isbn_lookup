@@ -1,10 +1,8 @@
-Develop REST API to demonstrate GET, POST requests
+Develop REST API to demonstrate `GET`, `POST` requests
 
-$ composer update
+$ `php artisan migrate:fresh --seed`
 
-$ php artisan migrate:fresh --seed
-
-$ php artisan serve
+$ `php artisan serve`
 
 Open Postman to test the endpoints
 
