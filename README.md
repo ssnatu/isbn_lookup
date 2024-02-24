@@ -1,29 +1,4 @@
-// General setup
-
-$ git clone https://github.com/ssnatu/restapi.git
-
-$ cd restapi
-
-// Checkout to master if default branch is main
-
-$ git checkout master
-
-Create database named 'restful_api'
-
-Create .env file copied from .env.example
-
-DB_CONNECTION=mysql
-
-DB_HOST=127.0.0.1
-
-DB_PORT=3306
-
-DB_DATABASE=restful_api
-
-DB_USERNAME=root
-
-DB_PASSWORD=
-
+Develop REST API to demonstrate GET, POST requests
 
 $ composer update
 
